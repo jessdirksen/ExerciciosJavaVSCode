@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 public class Exercicio02lista17042024 {
     /*
      * Faca um algoritmo que leia tres numeros digitados, e os coloque em ordem crescente.
+     * https://atividadesenac.vercel.app/atividades.html
      */
     public static void main(String[] args) {
 
@@ -49,8 +50,7 @@ public class Exercicio02lista17042024 {
                         System.out.println(numero2digitado);
 
                         //sexta comparação
-                        } else if (numero3digitado < numero2digitado && numero3digitado < numero1digitado && numero2digitado <
-                         numero1digitado){
+                        } else if (numero3digitado < numero2digitado && numero3digitado < numero1digitado && numero2digitado < numero1digitado){
                             System.out.println(numero3digitado);
                             System.out.println(numero2digitado);
                             System.out.println(numero1digitado);
